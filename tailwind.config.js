@@ -10,6 +10,11 @@ module.exports = {
     './src/**/*.{ts,tsx}',
   ],
   theme: {
+    screens: {
+      'sm': '320px',
+      'md': '768px',
+      'lg': '1024px',
+    },
     container: {
       center: true,
       padding: "2rem",
